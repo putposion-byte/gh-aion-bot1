@@ -1,0 +1,226 @@
+{
+  "guild_id": 1102499892259192875,
+  "ticket_category_id": 0,
+  "staff_role_id": 1561085141735186524,
+  "log_channel_id": 0,
+  "panel_channel_id": 1561088801852621004,
+  "save_transcripts": false,
+  "max_open_tickets_per_user": 1,
+  "ticket_name_prefix": "order",
+  "accent_color": "#2ecc71",
+  "payment_methods": [
+    {
+      "id": "card",
+      "name": "Bank card",
+      "emoji": "💳"
+    },
+    {
+      "id": "paypal",
+      "name": "PayPal",
+      "emoji": "🅿️"
+    },
+    {
+      "id": "crypto",
+      "name": "Crypto",
+      "emoji": "🪙"
+    },
+    {
+      "id": "g2g",
+      "name": "G2G (+10% price)",
+      "emoji": "🟠"
+    }
+  ],
+  "services": [
+    {
+      "id": "kinah",
+      "name": "Kinah",
+      "emoji": "💰",
+      "description": "Fast Kinah delivery.",
+      "price": "Price is discussed with a manager in your ticket",
+      "options": {
+        "title": "Choose amount",
+        "choices": [
+          {
+            "label": "10kk",
+            "price": ""
+          },
+          {
+            "label": "50kk",
+            "price": ""
+          },
+          {
+            "label": "100kk",
+            "price": ""
+          },
+          {
+            "label": "500kk",
+            "price": ""
+          },
+          {
+            "label": "Other amount",
+            "price": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "gear_score",
+      "name": "Gear Score",
+      "emoji": "🛡️",
+      "description": "Gear Score boost from 0 to 3000.",
+      "price": "0 - 3000 GS\nPrice is discussed with a manager in your ticket"
+    },
+    {
+      "id": "battle_power",
+      "name": "Battle Power",
+      "emoji": "⚔️",
+      "description": "Battle Power boost from 0 to 150k.",
+      "price": "0 - 150k BP\nPrice is discussed with a manager in your ticket"
+    },
+    {
+      "id": "dungeon",
+      "name": "Dungeon",
+      "emoji": "🏰",
+      "description": "Expedition runs.",
+      "price": "on request",
+      "options": {
+        "title": "Choose an expedition",
+        "choices": [
+          {
+            "label": "Krao Cave",
+            "price": "3$ per run",
+            "column": 1
+          },
+          {
+            "label": "Draupnir",
+            "price": "3$ per run",
+            "column": 1
+          },
+          {
+            "label": "Vakron's Floating Island",
+            "price": "4$ per run",
+            "column": 2
+          },
+          {
+            "label": "Urugugu Canyon",
+            "price": "4$ per run",
+            "column": 2
+          },
+          {
+            "label": "Ferocious Horn Den",
+            "price": "6$ per run",
+            "column": 3
+          },
+          {
+            "label": "Fire Temple",
+            "price": "6$ per run",
+            "column": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyss_farm",
+      "name": "Abyss farm",
+      "emoji": "🌀",
+      "description": "Abyss Points farming.",
+      "price": "8$ / hour"
+    },
+    {
+      "id": "pet_farm",
+      "name": "Pet farm",
+      "emoji": "🐾",
+      "description": "Pet farming.",
+      "price": "Price is discussed with a manager in your ticket"
+    },
+    {
+      "id": "genus_up",
+      "name": "Genus UP",
+      "emoji": "⬆️",
+      "description": "Genus upgrade.",
+      "price": "Price is discussed with a manager in your ticket"
+    },
+    {
+      "id": "lvl_boost",
+      "name": "LVL 1-45 boost",
+      "emoji": "📈",
+      "description": "Character leveling from 1 to 45.",
+      "price": "20$"
+    },
+    {
+      "id": "regional_quest",
+      "name": "Full regional quest",
+      "emoji": "🗺️",
+      "description": "Completion of all regional quests.",
+      "price": "18$"
+    },
+    {
+      "id": "transcendence",
+      "name": "Transcendence Boost",
+      "emoji": "✨",
+      "description": "Transcendence boost, stages 1-4.",
+      "price": "on request",
+      "options": {
+        "title": "Choose a stage",
+        "choices": [
+          {
+            "label": "Stage 1",
+            "price": "4$"
+          },
+          {
+            "label": "Stage 2",
+            "price": "6$"
+          },
+          {
+            "label": "Stage 3",
+            "price": "8$"
+          },
+          {
+            "label": "Stage 4",
+            "price": "Ask a manager in your ticket"
+          }
+        ]
+      }
+    }
+  ],
+  "panel": {
+    "banner": "",
+    "title": "GH Aion Shop",
+    "subtitle": "Aion 2 services: Kinah, Gear Score, Battle Power and Dungeons.",
+    "sections": [
+      {
+        "text": "**First time here?**\n-# Press «Info» to see how an order works.",
+        "button": {
+          "type": "info",
+          "label": "Info",
+          "emoji": "ℹ️",
+          "id": "info"
+        }
+      },
+      {
+        "text": "⭐ **Customer reviews**\n-# See what our customers say.",
+        "button": {
+          "type": "link",
+          "label": "Reviews",
+          "emoji": "⭐",
+          "url": "https://discord.com/channels/1102499892259192875/1561080335675039896"
+        }
+      }
+    ],
+    "info_texts": {
+      "info": "**How an order works**\n1. Click a service.\n2. Pick an option and a payment method.\n3. The bot opens a private ticket where a manager will reply.\n4. Pay, get your boost, then both you and the manager press «Order completed»."
+    },
+    "services_title": "Choose a service",
+    "fast_button_label": "Quick Order",
+    "bulk_button_label": "Bulk Order",
+    "footer": ""
+  },
+  "prices_channel_id": 1561080333779214427,
+  "ping_role_ids": [
+    1561035268515958845,
+    1561085141735186524
+  ],
+  "greet_channel_id": 1561893589716439142,
+  "greet_text": "👋 Welcome to GH Shop, {user}!\n\nWe're a team of experienced gamers providing professional boosting services. 🎮\n\n⚔️ Whether you need help with dungeons, character progression, or custom requests — we've got you covered!\n\n🎫 Ready to get started? Head over to <#1561080333779214427> to check our prices and open a ticket to place an order.\n\n💙 Our team is always happy to help!",
+  "auto_role_id": 1561085138144723027
+}
