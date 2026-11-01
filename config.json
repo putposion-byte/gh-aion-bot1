@@ -74,8 +74,8 @@
       "id": "battle_power",
       "name": "Battle Power",
       "emoji": "⚔️",
-      "description": "Battle Power boost from 0 to 150k.",
-      "price": "0 - 150k BP\nPrice is discussed with a manager in your ticket"
+      "description": "Battle Power boost from 0 to 200k.",
+      "price": "0 - 200k BP\nPrice is discussed with a manager in your ticket"
     },
     {
       "id": "dungeon",
