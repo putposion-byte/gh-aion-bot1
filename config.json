@@ -98,22 +98,27 @@
           },
           {
             "label": "Vakron's Floating Island",
-            "price": "4$ per run",
-            "column": 2
+            "price": "3$ per run",
+            "column": 1
           },
           {
             "label": "Urugugu Canyon",
-            "price": "4$ per run",
-            "column": 2
+            "price": "3$ per run",
+            "column": 1
           },
           {
             "label": "Ferocious Horn Den",
-            "price": "6$ per run",
-            "column": 3
+            "price": "5$ per run",
+            "column": 2
           },
           {
             "label": "Fire Temple",
-            "price": "6$ per run",
+            "price": "5$ per run",
+            "column": 2
+          },
+          {
+            "label": "Hard Mode",
+            "price": "8$ per run",
             "column": 3
           }
         ]
@@ -124,7 +129,7 @@
       "name": "Abyss farm",
       "emoji": "🌀",
       "description": "Abyss Points farming.",
-      "price": "8$ / hour"
+      "price": "5$ / hour"
     },
     {
       "id": "pet_farm",
@@ -137,8 +142,8 @@
       "id": "genus_up",
       "name": "Genus UP",
       "emoji": "⬆️",
-      "description": "Genus upgrade.",
-      "price": "Price is discussed with a manager in your ticket"
+      "description": "Genus upgrade from 0 to 10 for one slot.",
+      "price": "0-10 · 1 slot · 15$"
     },
     {
       "id": "lvl_boost",
@@ -165,19 +170,19 @@
         "choices": [
           {
             "label": "Stage 1",
-            "price": "4$"
+            "price": "3$"
           },
           {
             "label": "Stage 2",
-            "price": "6$"
+            "price": "4$"
           },
           {
             "label": "Stage 3",
-            "price": "8$"
+            "price": "5$"
           },
           {
             "label": "Stage 4",
-            "price": "Ask a manager in your ticket"
+            "price": "7$"
           }
         ]
       }
