@@ -420,12 +420,10 @@ def build_prices_embed() -> discord.Embed:
             for o in choices:
                 groups.setdefault(o.get("column") or o.get("price") or s.get("price"), []).append(o)
             def column(opts):
-                prices = [o.get("price") or s.get("price", "on request") for o in opts]
-                if len(opts) == 1:  # один вариант в колонке — название, под ним цена
-                    return f"{opts[0]['label']}\n**{prices[0]}**"
-                if len(set(prices)) == 1:  # одна цена на колонку — заголовком
-                    return f"**{prices[0]}**\n" + "\n".join(f"• {o['label']}" for o in opts)
-                return "\n".join(f"• {o['label']} — **{pr}**" for o, pr in zip(opts, prices))
+                return "\n\n".join(
+                    f"{o['label']}\n**{o.get('price') or s.get('price', 'on request')}**"
+                    for o in opts
+                )
             cols = [(title if i == 0 else "​", column(opts), True) for i, opts in enumerate(groups.values())]
             cols += [("​", "​", True)] * (-len(cols) % 3)  # добиваем ряд до 3 колонок
             columns += cols
