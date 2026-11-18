@@ -438,6 +438,8 @@ def build_prices_embed() -> discord.Embed:
             wide.append((title, price, False))
     for name, value, inline in wide + columns + short:
         embed.add_field(name=name, value=value, inline=inline)
+    for name, note in cfg().get("price_list_notes", {}).items():
+        embed.add_field(name=name, value=f"**{note}**", inline=False)
     embed.set_footer(text="Prices are updated automatically · Order in 🛒・open-ticket")
     return embed
 

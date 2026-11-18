@@ -30,6 +30,9 @@
       "emoji": "🟠"
     }
   ],
+  "price_list_notes": {
+    "Raid Ludra": "Price is discussed with a manager in your ticket"
+  },
   "services": [
     {
       "id": "kinah",
@@ -108,17 +111,17 @@
           },
           {
             "label": "Ferocious Horn Den",
-            "price": "5$ per run",
+            "price": "4$ per run",
             "column": 2
           },
           {
             "label": "Fire Temple",
-            "price": "5$ per run",
+            "price": "4$ per run",
             "column": 2
           },
           {
             "label": "Hard Mode",
-            "price": "8$ per run",
+            "price": "7$ per run",
             "column": 3
           }
         ]
